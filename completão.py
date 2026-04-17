@@ -156,3 +156,4 @@ elif seuhp <= 0:
 elif tentativas == 0:
     print("😴 Você ficou sem energia!")
 
+variavel = 2
