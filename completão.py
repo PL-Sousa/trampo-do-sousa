@@ -157,3 +157,5 @@ elif tentativas == 0:
     print("😴 Você ficou sem energia!")
 
 variavel = 2
+
+##gfdfhh
