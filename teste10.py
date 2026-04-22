@@ -37,8 +37,28 @@ print("Treinando por 3 anos...")
 for i in range(3):
     print(f"Ano {i+1}...")
     time.sleep(1)
-
 print("Treinamento concluído!")
+
+print(" " * 50)
+print("." * 50)
+print(" " * 50)
+
+print("Após o seu treinamento Você encontrou 10 Bombas!")
+print("como um bom",classe)
+print("Voce tera a seguinte opção")
+1 or 2
+print("1 - Passar pela floresta")
+print("2 - Contornar a floresta")
+
+
+
+if Passar pela floresta == 1:
+elif Contornar a floresta == 2:
+
+
+
+
+
 
 print(" " * 50)
 print("." * 50)
@@ -155,3 +175,4 @@ elif seuhp <= 0:
     print("💀 Você morreu!")
 elif tentativas == 0:
     print("😴 Você ficou sem energia!")
+
