@@ -47,14 +47,14 @@ print("Após o seu treinamento Você encontrou 10 Bombas!")
 print("como um bom",classe)
 print("Voce tera que decidir o seu caminho")
 1 or 2
-caminho = int(input("escolha um caminho"))
 print("1 - Passar pelo meio da floresta")
 print("2 - Contornar a floresta")
+caminho = int(input("escolha um caminho"))
 
 if caminho == 1:
     print("Há um grande caminho pela frente, Você tera que atravessar a floresta para chegar a Cidade Real!")
     print("Você escuta alguma coisa")
-
+    escutar = int(input("Você vai ver o que é?"))
 
 
 
