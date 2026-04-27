@@ -54,7 +54,10 @@ caminho = int(input("escolha um caminho"))
 if caminho == 1:
     print("Há um grande caminho pela frente, Você tera que atravessar a floresta para chegar a Cidade Real!")
     print("Você escuta alguma coisa")
-    escutar = int(input("Você vai ver o que é?"))
+    print("1 - Se você vai verificar")
+    print("2 - Se você vai seguir o seu caminho")
+    escutar = int(input("Qual a sua escolha?"))
+    if escutar == 1:
 
 
 
