@@ -19,7 +19,7 @@ if nivel>=101:
     nivel=1
     print("O seu nivel é",nivel)
 elif nivel<=99:
-    print("Certeza que vai querer porção")
+    print("O seu nivel é",nivel)
 
 hp = nivel * 50
 print("Seu Hp é", hp)
@@ -58,16 +58,12 @@ if caminho == 1:
     print("2 - Se você vai seguir o seu caminho")
     escutar = int(input("Qual a sua escolha?"))
     if escutar == 1:
+        print("Você encontrou um vendedor de Porções")
+        
+    
 
 
 
-
-
-
-
-    print(" " * 50)
-    print("." * 50)
-    print(" " * 50)
 
     # NÍVEL 2 e 3: Loja
     ouro = 100.50

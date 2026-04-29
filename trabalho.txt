@@ -1,0 +1,63 @@
+🚀 Nome do Projeto: App de Controle Financeiro Jovem
+
+Squad (Equipe): Equipe Devs
+Integrante 1: Thayná Rodrigues
+
+Integrante 2: Laura Vitória
+
+Integrante 3: Pedro Souza
+
+Integrante 4: Erick Raphael
+
+🎯 1. Visão do Produto
+
+Qual é o problema que o seu programa resolve?
+
+Resolve diversos problemas sobre
+
+📦 2. O MVP (Minimum Viable Product)
+
+Quais são as 3 funcionalidades PRINCIPAIS e OBRIGATÓRIAS do sistema?
+
+[Ex: O usuário deve conseguir criar uma conta]
+
+[Ex: O usuário pode depositar dinheiro]
+
+[Ex: O usuário pode ver o extrato]
+
+🚫 3. Fora de Escopo
+
+O que o sistema NÃO vai fazer (para não perdermos tempo)?
+
+(Ex: Não teremos interface gráfica no começo, apenas terminal. / Não teremos sistema de empréstimo).
+Escreva o que fica de fora aqui...
+
+⚙️ 4. Arquitetura e Lógica (Onde vamos usar o que aprendemos?)
+
+Variáveis: Quais dados o sistema precisa guardar na memória?
+
+( ) Ex: saldo_usuario (Int)
+
+( )
+
+Condicionais (If/Else): Onde o sistema precisará tomar decisões?
+
+( ) Ex: Se o saque for maior que o saldo, dar erro.
+
+( )
+
+Loops (While/For): Onde o sistema precisará repetir ações?
+
+( ) Ex: O Menu principal ficará num While True até o usuário escolher Sair.
+
+( )
+
+🗺️ 5. Fluxo do Usuário (Passo a Passo)
+
+O usuário abre o programa e vê a tela...
+
+Ele escolhe a opção X...
+
+O sistema pergunta...
+
+O sistema responde...
