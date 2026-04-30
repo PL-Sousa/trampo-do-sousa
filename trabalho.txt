@@ -13,51 +13,46 @@ Integrante 4: Erick Raphael
 
 Qual é o problema que o seu programa resolve?
 
-Resolve diversos problemas sobre
+Resolve problemas sobre a falta de organizaçâo financeira dos jovens.
 
 📦 2. O MVP (Minimum Viable Product)
 
 Quais são as 3 funcionalidades PRINCIPAIS e OBRIGATÓRIAS do sistema?
 
-[Ex: O usuário deve conseguir criar uma conta]
+1 - Registro de Entradas e Saídas
+O usuário pode adicionar ganhos (mesada, salário, etc.) e gastos (lanches, transporte, compras), categorizando cada transação.
 
-[Ex: O usuário pode depositar dinheiro]
+2 - Visualização do Saldo e Resumo Mensal
+O app mostra quanto dinheiro o usuário tem disponível e um resumo simples (total gasto, total recebido e saldo final).
 
-[Ex: O usuário pode ver o extrato]
+3 - Controle por Categorias de Gastos
+O usuário consegue ver para onde o dinheiro está indo (ex: alimentação, transporte, lazer), ajudando a identificar excessos.
 
 🚫 3. Fora de Escopo
 
 O que o sistema NÃO vai fazer (para não perdermos tempo)?
 
-(Ex: Não teremos interface gráfica no começo, apenas terminal. / Não teremos sistema de empréstimo).
-Escreva o que fica de fora aqui...
+Integração com bancos reais (Pix, cartão, etc.)
 
 ⚙️ 4. Arquitetura e Lógica (Onde vamos usar o que aprendemos?)
 
 Variáveis: Quais dados o sistema precisa guardar na memória?
 
-( ) Ex: saldo_usuario (Int)
-
-( )
+Guardar dados como saldo, valor das transações e categoria.
 
 Condicionais (If/Else): Onde o sistema precisará tomar decisões?
 
-( ) Ex: Se o saque for maior que o saldo, dar erro.
-
-( )
+Decidir se soma ou subtrai do saldo e verificar se o usuário tem dinheiro suficiente.
 
 Loops (While/For): Onde o sistema precisará repetir ações?
 
-( ) Ex: O Menu principal ficará num While True até o usuário escolher Sair.
 
-( )
+Repetir o menu até o usuário sair e listar as transações.
 
 🗺️ 5. Fluxo do Usuário (Passo a Passo)
 
-O usuário abre o programa e vê a tela...
-
-Ele escolhe a opção X...
-
-O sistema pergunta...
-
-O sistema responde...
+O usuário abre o programa e vê o menu principal.
+Ele escolhe uma opção (adicionar entrada, gasto, ver saldo ou resumo).
+O sistema pede as informações necessárias (valor, categoria, etc.).
+O sistema registra a ação e atualiza o saldo.
+O usuário pode continuar usando o menu ou escolher sair.
