@@ -87,12 +87,12 @@ if caminho == 1:
                         print("Ouro insuficiente! Compra recusada.")
 
 
-             elif  compra == "nao":
+         elif  compra == "nao":
                 print("Beleza ent fortão!!!")
 
         elif escutar == 2:
             print("Ok ent vida que segue...")
-
+            print("Você escuta algo vindo em sua direcão...")
 
             # NÍVEL 4: Combate final
             print("Um monstro apareceu!")
